@@ -13,17 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Demo
+namespace Model
 {
-    public static class User
-    {
-        public static Frame frmMain;
-    }
-    public static class DB
-    {
-        public static Entities1 Base;
-        //public static auth currentUser;
-    }
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
@@ -32,8 +23,6 @@ namespace Demo
         public MainWindow()
         {
             InitializeComponent();
-            User.frmMain = frmMain;
-            frmMain.Navigate(new Reg());
         }
     }
 }
