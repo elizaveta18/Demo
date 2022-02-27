@@ -16,7 +16,7 @@
                         <TextBox x:Name="txtLogin"></TextBox>
                     </GroupBox>
                     <GroupBox Header="Введите пароль">
-                        <TextBox x:Name="txtPass"></TextBox>
+                        <PasswordBox x:Name="txtPass"></PasswordBox>
                     </GroupBox>
                 </StackPanel>
             </GroupBox>

@@ -28,7 +28,7 @@ namespace Demo
 
         private void btnAvtor_Click(object sender, RoutedEventArgs e)
         {
-            if (txtPass.Text == "0000")
+            if (txtPass.Password == "0000")
             {
                 MessageBox.Show("Вы вошли как администратор");
                 User.frmMain.Navigate(new List(VMC));
